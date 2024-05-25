@@ -7,6 +7,5 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.PathVariable;
 
 public interface AccountRepository extends JpaRepository<Account, Long> {
-    Account findByAccountNumber(Long accountNumber);
 
 }
